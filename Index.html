@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Hello
+</body>
+<script>'use strict'
+
+
+
+
+    const question = new Map ([
+    ['Question','Which is the tallest building in the world❓'],
+    [1,'Empire state'],
+    [2,'Vincent tower'],
+    [3,'eifel tower'],
+    [4,'Burj Khalifa'],
+    ['correct',4],
+    [true , 'Correct🙌'],
+    [false , 'Wrong ❌']
+    ]
+    )
+    
+    
+    console.log(question.get('Question'));
+    console.log(question.get(1));
+    console.log(question.get(2));
+    console.log(question.get(3));
+    console.log(question.get(4));
+    
+    let answer = prompt("Select option number")
+    
+    if (answer == question.get('correct'))
+    {
+        console.log(question.get(true));
+    }
+    else
+    {
+    
+        console.log(question.get(false));1
+        prompt("Select option number")
+    }
+    
+    
+    
+    
+    
+    
+    </script>
+</html>
